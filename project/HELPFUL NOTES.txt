@@ -1,0 +1,3 @@
+-<input type="img"> ---> makes it so that an image acts as a button and can do something (we can use this for notifications)
+
+-we can use <label for=""> to make labels... if that helps

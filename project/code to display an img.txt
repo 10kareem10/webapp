@@ -1,0 +1,13 @@
+//   FOR TESTING
+    // Now to display an image
+
+    $sql = "select [esm el column] from [esm el table] where id=[el id ely e7na 3ayzeenoh]";
+    $result = mysqli_query($con,$sql);
+    $row = mysqli_fetch_array($result);
+
+    $image = $row['[esm el column ely feeh link el soora]'];
+    $image_src = "uploads/" . $image;
+
+    echo"<img src='$image_src'>";
+
+    // ----------
